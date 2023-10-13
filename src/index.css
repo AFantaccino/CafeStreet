@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#top-bg {
+  background-color: #f6ebda;
+}
+
+#brown-bg {
+  background-color: #2f2105;
+  width: 416px;
+  height: 416px;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.h-96 {
+  height: 350px;
+}
+
+input[type="radio"] + p {
+  color: #ffd28f;
+  border-color: #ffd28f;
+}
+
+input[type="radio"]:checked + p {
+  color: #ff902b;
+  border-color: #ff902b;
+}

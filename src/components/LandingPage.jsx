@@ -7,17 +7,17 @@ import Testimonial from "./LandingPage/Testimonial";
 import Newsletter from "./LandingPage/Newsletter";
 
 const LandingPage = () => {
-	return (
-		<div>
-			<Hero />
-			<Popular />
-			<DeliveryInstruction />
-			<About />
-			<Menu />
-			<Testimonial />
-			<Newsletter />
-		</div>
-	);
+  return (
+    <div>
+      <Hero />
+      <Popular />
+      <DeliveryInstruction />
+      <About />
+      <Menu />
+      <Testimonial />
+      <Newsletter />
+    </div>
+  );
 };
 
 export default LandingPage;
